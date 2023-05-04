@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/prawstho/WeekOne/issues"
   },
-  "homepage": "https://github.com/prawstho/WeekOne#readme"
+  "homepage": "https://github.com/prawstho/WeekOne#readme",
+  "dependencies": {
+    "moment": "^2.29.4"
+  }
 }
