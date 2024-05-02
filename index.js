@@ -3,11 +3,11 @@ const http = require('http');
 const hostname = 'localhost';
 const port = 3000;
 
-const server = http.createServer((req, res) => {
-    console.log(req);
-    res.statusCode = 200;
-    res.setHeader('Content-Type', 'text/plain');
-    res.end('Hello Keyin World on a foggy day.');
+const server = http.createServer((request, response) => {
+    // console.log(request);
+    response.statusCode = 200;
+    response.setHeader('Content-Type', 'text/plain');
+    response.end('Hello Keyin World on a foggy day.');
 });
 
 console.log("It is foggy today.")
